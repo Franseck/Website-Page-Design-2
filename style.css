@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .container {
+    font-family: "Kanit", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  }
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 1rem;
+    background-color: rgb(102, 99, 102);
+    color: bisque;
+    border-bottom: 5px solid purple;
+    height: 6rem;
+  
+  }
+  .title span {
+    color: purple;
+  }
+  .title h1 {
+    font-size: 2rem;
+  }
+  .nav a{
+    text-decoration: none;
+    margin-right:2rem;
+    color: bisque;
+    cursor: pointer;
+    
+  }
+  .nav span {
+    color: purple;
+  }
+  .prof {
+    text-align: center;
+    margin: auto;
+    padding-top: 3rem;
+    background-image: url(showcase.jpg);
+    background-position: 50% 50%;
+    height: 20rem;
+  }
+  .prof h2 {
+    font-size: 2.5rem;
+    color: bisque;
+  }
+  .prof p {
+padding-top: 2rem;
+    color: bisque;
+  }
+
+  .subs {
+    background: rgb(102, 99, 102);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 1.2rem;
+    color: bisque;
+  }
+  input {
+    padding: 2px;
+  }
+  button {
+    padding: 2px;
+    color: bisque;
+    background-color: orangered;
+    border: none;
+  }
+  .markup {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    padding: 2rem;
+    
+
+  }
+
+  .markup div {
+    width: 33%;
+   
+
+  }
+  
+  .markup img {
+width: 5rem;
+height: 5rem;
+  }
+
+  footer {
+    background-color: rgb(102, 99, 102);
+        display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1rem;
+    color: bisque
+  }

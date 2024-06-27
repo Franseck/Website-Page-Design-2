@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .container {
+    font-family: "Kanit", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  }
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 1rem;
+    background-color: rgb(102, 99, 102);
+    color: bisque;
+    border-bottom: 5px solid purple;
+    height: 6rem;
+  
+  }
+  .title span {
+    color: purple;
+  }
+  .title h1 {
+    font-size: 2rem;
+  }
+  .nav a{
+    text-decoration: none;
+    margin-right:2rem;
+    color: bisque;
+    cursor: pointer;
+    
+  }
+  .nav span {
+    color: purple;
+  }
+  .subs {
+    background: rgb(102, 99, 102);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 1.2rem;
+    color: bisque;
+  }
+  input {
+    padding: 2px;
+  }
+  button {
+    padding: 2px;
+    color: bisque;
+    background-color: orangered;
+    border: none;
+  }
+
+main {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 2rem;
+ 
+}
+.left {
+  display: flex;
+  flex-direction: column;
+  padding-left: 2rem;
+
+  
+}
+.left div{
+padding: 1rem;
+margin-top: 1rem;
+background: rgb(96, 124, 96);
+}
+.left h3{
+  padding-bottom: 1rem;
+}
+.left p {
+  padding-bottom: 1rem;
+}
+
+.right {
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+width: 25%;
+height: 45vh;
+padding: 3rem;
+color: bisque;
+background-color:rgb(102, 99, 102);
+}
+.right h3 {
+  padding-bottom: 1rem;
+}
+
+.right label, input {
+  padding-top: .5rem;
+}
+
+button{
+  margin-top: 1rem;
+}
+  footer {
+    background-color: rgb(102, 99, 102);
+        display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1rem;
+    color: bisque
+  }
+
+  @media only screen and (max-width:1040px) {
+    .left {
+        width: 100%;
+    }
+    .right {
+      margin-top: 1rem;
+      width: 100%;
+          }
+
+  }
