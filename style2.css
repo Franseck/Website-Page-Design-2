@@ -100,5 +100,9 @@ background-color: rgb(102, 99, 102);
     .right {
       width: 100%;
           }
+    .navbar { padding: 0.2rem; }
+    footer {
+      margin-top: 10rem;
+    }
 
   }
